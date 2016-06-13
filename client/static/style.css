@@ -1,0 +1,187 @@
+body {
+	font-family: "Avenir Next" !important; 
+}
+.nav-wrapper {
+	background-color: #6B7C8E;
+}
+
+.navColor {
+	color: #6B7C8E;
+}
+.main_pic {
+	width:200vh;
+    height: 100vh;
+    background-image: url("../images/seattle-skyline_vectorized.png");
+    background-position: 100% 150%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main_caption {
+	/*color: #000000;*/
+	margin-top: 75px;
+	position: fixed;
+	/*display: block;*/
+/*	text-align: center;
+*/	width: 100%;
+padding-bottom: -15px;
+
+}
+
+.main_caption {
+	padding-bottom: -10px;
+}
+
+.main_caption1 {
+	position: fixed;
+	display: block;
+	width: 100%;
+	margin-top: 175px;
+
+}
+
+.main_caption1 span {
+	border-top: 1px solid #F38631;
+}
+/*.brand-logo li {
+	padding: 0 5px;
+
+}*/
+
+.button-collapse {
+	margin-left: 10px;
+}
+#About, #projects, #Technologies, #Contact {
+	padding: 70px 10px;
+	height: 100vh;
+}
+
+#About h1,#projects h1,#Technologies h1,#Contact h1 {
+	/*color: white;*/
+	text-align: center
+
+
+}
+
+.center_me {
+	text-align: center;
+}
+
+
+#projects h1 {
+	text-align: center;
+}
+
+.scrollToTop{
+	width:75px; 
+	height:100px;
+
+	z-index: 5;
+	position:fixed;
+	top:85vh;
+	right:5px;
+	display:none;
+	color: #6B7C8E;
+	/*background: url('static/images/up.ico') no-repeat 0px 20px;*/
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+#Technologies .row {
+	/*padding: 0;*/
+	margin-bottom: 0px !important;
+}
+
+#Technologies .row h5 {
+	/*margin-top: 0px*/
+	font-size: 30px;
+}
+
+#Technologies {
+	font-size: 20px;
+	color: #6B7C8E;
+}
+#contact {
+	text-align: center;
+}
+
+.blacktext {
+	color: black;
+}
+
+.orangeText {
+	color: #F38631;
+}
+
+.toolbox_div {
+	padding-top: 10px;
+}
+
+.toolbox_head {
+	padding-top: 15px;
+	border-bottom: 1px solid #6B7C8E;
+}
+.toolbox_icon {
+	width: 30px;
+	/*padding-top: 10px;*/
+	padding-right: 10px;
+}
+
+
+
+/*PROJECTS HOVER*/
+
+.card-image {
+	background-color: black;
+}
+.card:hover img {
+	opacity: 0.3;
+}
+.card:hover h4 {
+	opacity: 1;
+}
+
+.card-image img, .card-image h4 {
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+.card h4 {
+	position: absolute;
+	color: white;
+	left: 0;
+	top: 35%;
+	right: 0;
+	bottom: 0;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0;
+}
+
+.card h4 a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/*.slider .slides li {
+	background-image: url("static/images/Tippa1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+}*/
+
+
+.active {
+	color: #F38631;
+	padding-top: 5px;
+	/*text-decoration: underline;*/
+
+}
+
