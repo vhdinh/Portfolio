@@ -58,6 +58,10 @@ padding-bottom: -15px;
 	height: 100vh;
 }
 
+#projects {
+	height: 125vh;
+}
+
 #About h1,#projects h1,#Technologies h1,#Contact h1 {
 	/*color: white;*/
 	text-align: center
